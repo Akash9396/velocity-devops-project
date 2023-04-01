@@ -3,6 +3,6 @@ services:
   tomcat-service:
     image: 'tomcat:9'
     ports:
-      - "8081:8080"
+      - "8080:8080"
     volumes:
-      - "/mnt/:/usr/local/tomcat/webapps"
+      - "/mnt/project/:/usr/local/tomcat/webapps"
